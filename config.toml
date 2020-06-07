@@ -1,0 +1,30 @@
+baseURL = "http://example.org/"
+languageCode = "zh-tw"
+title = "Herenthere"
+theme = "LoveIt"
+
+[params]
+  version = "0.2.X"
+  description = "herenthere"
+  defaultTheme = "dark"
+
+[params.search]
+    enable = true
+    type = "lunr"
+    contentLength = 4000
+    placeholder = ""
+    maxResultLength = 10
+    snippetLength = 50
+    highlightTag = "em"
+    absoluteURL = false
+
+[params.footer]
+    enable = true
+    # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
+    custom = ''
+    # LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
+    hugo = true
+    # LoveIt 新增 | 0.2.0 是否显示版权信息
+    copyright = true
+    # LoveIt 新增 | 0.2.0 是否显示作者
+    author = true
