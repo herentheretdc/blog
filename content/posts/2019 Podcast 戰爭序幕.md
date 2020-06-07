@@ -1,8 +1,12 @@
 ---
 title: "2019 Podcast 戰爭序幕"
-date: 2019-12-31T16:52+08:00
+tags: ["文章"]
+date: 2019-12-31T16:52:00+08:00
 draft: false
 author: "tdc"
+featuredImagePreview: "https://p176.p0.n0.cdn.getcloudapp.com/items/eDu9yQkN/collage.png"
+featuredImage: "https://p176.p0.n0.cdn.getcloudapp.com/items/eDu9yQkN/collage.png"
+
 ---
 
 # 2019 Podcast 戰爭序幕
