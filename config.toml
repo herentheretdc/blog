@@ -55,16 +55,15 @@ theme = "LoveIt"
     title = ""
     weight = 1
 
-[params.page.comment]
-  enable = true
-  [params.page.comment.utterances]
-      enable = false
-      # owner/repo
-      repo = "herentheretdc/site"
-      issueTerm = "url"
-      label = ""
-      lightTheme = "github-light"
-      darkTheme = "photon-dark"
+
+[params.page.comment.utterances]
+    enable = true
+    # owner/repo
+    repo = "herentheretdc/site"
+    issueTerm = "url"
+    label = "✨💬✨"
+    lightTheme = "github-light"
+    darkTheme = "github-dark"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
