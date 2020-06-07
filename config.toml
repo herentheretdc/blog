@@ -60,7 +60,7 @@ theme = "LoveIt"
   [params.page.comment.utterances]
       enable = true
       # owner/repo
-      repo = "herentheretdc/site"
+      repo = "herentheretdc/blog"
       issueTerm = "url"
       label = "✨💬✨"
       lightTheme = "github-light"
