@@ -1,30 +1,74 @@
-baseURL = "http://example.org/"
-languageCode = "zh-tw"
-title = "Herenthere"
+baseURL = "https://blog.tdccc.com.tw/"
+languageCode = "zh-TW"
+defaultContentLanguage = "zh-tw"
+
+title = "$('Herenthere');"
 theme = "LoveIt"
+
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = "p:year:day"
 
 [params]
   version = "0.2.X"
-  description = "herenthere"
+  description = "herenthere 這裡那裡"
   defaultTheme = "light"
 
 [params.search]
-    enable = true
-    type = "lunr"
-    contentLength = 4000
-    placeholder = ""
-    maxResultLength = 10
-    snippetLength = 50
-    highlightTag = "em"
-    absoluteURL = false
+  enable = true
+  # 搜索引擎的类型 ("lunr", "algolia")
+  type = "lunr"
+  # 文章内容最长索引长度
+  contentLength = 4000
+  # 搜索框的占位提示语
+  placeholder = ""
+  # LoveIt 新增 | 0.2.1 最大结果数目
+  maxResultLength = 10
+  # LoveIt 新增 | 0.2.3 结果内容片段长度
+  snippetLength = 50
+  # LoveIt 新增 | 0.2.1 搜索结果中高亮部分的 HTML 标签
+  highlightTag = "em"
+  # LoveIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
+  absoluteURL = false
 
 [params.footer]
     enable = true
     # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
     custom = ''
     # LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     # LoveIt 新增 | 0.2.0 是否显示版权信息
     copyright = true
     # LoveIt 新增 | 0.2.0 是否显示作者
     author = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    pre = ""
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    post = ""
+    name = "文章"
+    url = "/posts/"
+    # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
+    title = ""
+    weight = 1
+
+[params.page.comment]
+  enable = true
+  [params.page.comment.utterances]
+      enable = false
+      # owner/repo
+      repo = "herentheretdc/site"
+      issueTerm = "url"
+      label = ""
+      lightTheme = "github-light"
+      darkTheme = "photon-dark"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
