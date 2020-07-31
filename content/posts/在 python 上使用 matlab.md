@@ -2,10 +2,10 @@
 title: "在 python 上使用 matlab、octave"
 tags: ["文章","python","matlab"]
 date: 2020-07-29T12:58:00+08:00
-draft: true
+draft: false
 author: "永格天(武則天、wxex)"
-featuredImagePreview: ""
-featuredImage: ""
+featuredImagePreview: "http://dr.sudo.host/vnx78Y+"
+featuredImage: "http://dr.sudo.host/vnx78Y+"
 
 ---
 <!-- 「」 -->
@@ -23,7 +23,7 @@ octave 簡單來說就是 matlab 的簡化版，雖然語法上完全相容，�
 
 這裡推薦使用的 package 是 [oct2py](https://github.com/blink1073/oct2py)，已有7年多的歷史，且近期還有在維護，使用上也很簡單。
 安裝方式 ```pip install oct2py```，他另外還有 ```conda install -c conda-forge oct2py```，如果有用 conda 的可以考慮。
-此外，這個套件僅支援 octave 4.0 以上的版本，經測試目前最新的 5.2.0 可以使用。
+此外，這個套件僅支援 octave 4.0 以上(含)的版本，經測試目前最新的 5.2.0 可以使用。
 
 在你安裝好 oct2py 後還不能直接使用，要先確定 ```C:\Octave\Octave-5.2.0\mingw64\bin``` 中有沒有一個 ```octave-cli.exe```檔案，如果有再將```C:\Octave\Octave-5.2.0\mingw64\bin```加入系統環境變數中
 ![加入系統環境變數中](http://dr.sudo.host/v8LBvD+)
@@ -59,7 +59,7 @@ except Oct2PyError as e:
 
 ![code result](http://dr.sudo.host/pXsCbX+)
 
-**剩下的功能我認為我不會寫得更好了，請直接去 [官方文件infomation](https://oct2py.readthedocs.io/en/latest/source/info.html)、[官方文件examples](https://oct2py.readthedocs.io/en/latest/source/examples.html) 看吧！**
+**剩下的進階功能請直接去 [官方文件infomation](https://oct2py.readthedocs.io/en/latest/source/info.html)、[官方文件examples](https://oct2py.readthedocs.io/en/latest/source/examples.html) 看吧！**
 
 
 # 在 python 上使用 matlab
@@ -95,7 +95,7 @@ out1,out2 = eng.test(2.0, 3.0,nargout=2)
 print(out1)
 print(out2)
 
-eng.mod(5,3)
+eng.mod(5,3) # matlab 原生 function
 ```
 
 test.py 重點有4個    
