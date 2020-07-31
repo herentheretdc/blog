@@ -5,7 +5,7 @@ date: 2020-07-29T12:58:00+08:00
 draft: false
 author: "永格天(武則天、wxex)"
 featuredImagePreview: "https://dr.sudo.host/vnx78Y+"
-featuredImage: "https://dr.sudo.host/vnx78Y"
+featuredImage: "https://dr.sudo.host/vnx78Y+"
 
 ---
 <!-- 「」 -->
