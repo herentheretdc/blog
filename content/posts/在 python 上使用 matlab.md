@@ -4,8 +4,8 @@ tags: ["文章","python","matlab"]
 date: 2020-07-29T12:58:00+08:00
 draft: false
 author: "永格天(武則天、wxex)"
-featuredImagePreview: "http://dr.sudo.host/vnx78Y"
-featuredImage: "http://dr.sudo.host/vnx78Y+"
+featuredImagePreview: "https://cdn-std.droplr.net/files/acc_601799/vnx78Y"
+featuredImage: "https://cdn-std.droplr.net/files/acc_601799/vnx78Y"
 
 ---
 <!-- 「」 -->
