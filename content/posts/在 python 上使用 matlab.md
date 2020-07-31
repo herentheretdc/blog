@@ -10,21 +10,21 @@ featuredImage: "https://dr.sudo.host/vnx78Y+"
 ---
 <!-- 「」 -->
 # 師：「那個誰，幫我把這幾隻 matlab 程式轉 python」
-「......老師你是嫌 matlab 太貴要轉移陣地嗎?」
-「不要管那麼多！」
-「老師那改成能在 python 使用 matlab 的功能好不好?」
-「...好，交給你了」
+「......老師你是嫌 matlab 太貴要轉移陣地嗎?」     
+「不要管那麼多！」     
+「老師那改成能在 python 使用 matlab 的功能好不好?」     
+「...好，交給你了」     
 
 
 # 在 python 上使用 octave
 
-octave 簡單來說就是 matlab 的簡化版，雖然語法上完全相容，也有自己的 packages，但沒有 matlab 的豐富。 octave 是自由軟體。
+octave 簡單來說就是 matlab 的簡化版，雖然語法上完全相容，也有自己的 packages，但沒有 matlab 的豐富。 octave 是自由軟體。     
 
-這裡推薦使用的 package 是 [oct2py](https://github.com/blink1073/oct2py)，已有7年多的歷史，且近期還有在維護，使用上也很簡單。
-安裝方式 ```pip install oct2py```，他另外還有 ```conda install -c conda-forge oct2py```，如果有用 conda 的可以考慮。
-此外，這個套件僅支援 octave 4.0 以上(含)的版本，經測試目前最新的 5.2.0 可以使用。
+這裡推薦使用的 package 是 [oct2py](https://github.com/blink1073/oct2py)，已有7年多的歷史，且近期還有在維護，使用上也很簡單。     
+安裝方式 ```pip install oct2py```，他另外還有 ```conda install -c conda-forge oct2py```，如果有用 conda 的可以考慮。     
+此外，這個套件僅支援 octave 4.0 以上(含)的版本，經測試目前最新的 5.2.0 可以使用。     
 
-在你安裝好 oct2py 後還不能直接使用，要先確定 ```C:\Octave\Octave-5.2.0\mingw64\bin``` 中有沒有一個 ```octave-cli.exe```檔案，如果有再將```C:\Octave\Octave-5.2.0\mingw64\bin```加入系統環境變數中
+在你安裝好 oct2py 後還不能直接使用，要先確定 ```C:\Octave\Octave-5.2.0\mingw64\bin``` 中有沒有一個 ```octave-cli.exe```檔案，如果有再將```C:\Octave\Octave-5.2.0\mingw64\bin```加入系統環境變數中     
 ![加入系統環境變數中](https://dr.sudo.host/v8LBvD+)
 
 再來準備範例檔案(**需擺在同一目錄下**)    
@@ -110,10 +110,10 @@ out1,out2 = eng.test(2.0, 3.0,nargout=2)
 
 4. test.m 的 disp() 沒有效果
 
-以上是最基礎的用法
-後面還有共用 matlab session 的 [matlab.engine.find_matlab](https://www.mathworks.com/help/matlab/apiref/matlab.engine.find_matlab.html) 跟 [matlab.engine.connect_matlab](https://www.mathworks.com/help/matlab/apiref/matlab.engine.connect_matlab.html) 方法
-以及啟動 async 的 [matlab.engine.start_matlab(async=True)](https://www.mathworks.com/help/matlab/apiref/matlab.engine.start_matlab.html#buj7y8n-async)
-更多 method 請看[這裡](https://www.mathworks.com/help/matlab/referencelist.html?type=function&category=matlab-engine-for-python&s_tid=CRUX_gn_function_matlab-engine-for-python)，因為很少場合會用就不介紹了。
+以上是最基礎的用法     
+後面還有共用 matlab session 的 [matlab.engine.find_matlab](https://www.mathworks.com/help/matlab/apiref/matlab.engine.find_matlab.html) 跟 [matlab.engine.connect_matlab](https://www.mathworks.com/help/matlab/apiref/matlab.engine.connect_matlab.html) 方法     
+以及啟動 async 的 [matlab.engine.start_matlab(async=True)](https://www.mathworks.com/help/matlab/apiref/matlab.engine.start_matlab.html#buj7y8n-async)     
+更多 method 請看[這裡](https://www.mathworks.com/help/matlab/referencelist.html?type=function&category=matlab-engine-for-python&s_tid=CRUX_gn_function_matlab-engine-for-python)，因為很少場合會用就不介紹了。     
 
 
 
