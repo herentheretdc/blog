@@ -4,8 +4,8 @@ tags: ["文章","python","matlab"]
 date: 2020-07-29T12:58:00+08:00
 draft: false
 author: "永格天(武則天、wxex)"
-featuredImagePreview: "https://cdn-std.droplr.net/files/acc_601799/vnx78Y"
-featuredImage: "https://cdn-std.droplr.net/files/acc_601799/vnx78Y"
+featuredImagePreview: "https://dr.sudo.host/vnx78Y+"
+featuredImage: "https://dr.sudo.host/vnx78Y"
 
 ---
 <!-- 「」 -->
@@ -25,7 +25,7 @@ octave 簡單來說就是 matlab 的簡化版，雖然語法上完全相容，�
 此外，這個套件僅支援 octave 4.0 以上(含)的版本，經測試目前最新的 5.2.0 可以使用。
 
 在你安裝好 oct2py 後還不能直接使用，要先確定 ```C:\Octave\Octave-5.2.0\mingw64\bin``` 中有沒有一個 ```octave-cli.exe```檔案，如果有再將```C:\Octave\Octave-5.2.0\mingw64\bin```加入系統環境變數中
-![加入系統環境變數中](http://dr.sudo.host/v8LBvD+)
+![加入系統環境變數中](https://dr.sudo.host/v8LBvD+)
 
 再來準備範例檔案(**需擺在同一目錄下**)    
 
@@ -56,7 +56,7 @@ except Oct2PyError as e:
     print(str(e))
 ```
 
-![code result](http://dr.sudo.host/pXsCbX+)
+![code result](https://dr.sudo.host/pXsCbX+)
 
 **剩下的進階功能請直接去 [官方文件infomation](https://oct2py.readthedocs.io/en/latest/source/info.html)、[官方文件examples](https://oct2py.readthedocs.io/en/latest/source/examples.html) 看吧！**
 
