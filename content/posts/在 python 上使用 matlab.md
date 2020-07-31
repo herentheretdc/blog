@@ -4,13 +4,12 @@ tags: ["文章","python","matlab"]
 date: 2020-07-29T12:58:00+08:00
 draft: false
 author: "永格天(武則天、wxex)"
-featuredImagePreview: "http://dr.sudo.host/vnx78Y+"
+featuredImagePreview: "http://dr.sudo.host/vnx78Y"
 featuredImage: "http://dr.sudo.host/vnx78Y+"
 
 ---
 <!-- 「」 -->
 # 師：「那個誰，幫我把這幾隻 matlab 程式轉 python」
-
 「......老師你是嫌 matlab 太貴要轉移陣地嗎?」
 「不要管那麼多！」
 「老師那改成能在 python 使用 matlab 的功能好不好?」
