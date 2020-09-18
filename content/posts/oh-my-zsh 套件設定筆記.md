@@ -5,8 +5,8 @@ date: 2019-12-23T17:16:00+08:00
 draft: false
 author: "tdc"
 aliases: [ "/545"]
-featuredImagePreview: "[https://p176.p0.n0.cdn.getcloudapp.com/items/eDu9yQkN/collage.png][1]"
-featuredImage: "[https://p176.p0.n0.cdn.getcloudapp.com/items/eDu9yQkN/collage.png][2]"
+featuredImagePreview: "https://raw.githubusercontent.com/zsh-users/antigen/develop/antigen.png"
+featuredImage: "https://raw.githubusercontent.com/zsh-users/antigen/develop/antigen.png"
 
 ---
 # oh-my-zsh 套件設定筆記
@@ -34,7 +34,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 另外忘記說他必須依賴 `git` 以及 `curl` 或 `wget`
 
-接著來挑選自己喜歡的主題，例如 [repo][3] 提供的，如果找到的主題並未在 repo 內，只需要將想要的主題下載到 `~/.oh-my-zsh/themes` 內，並且編輯 `~/.zshrc` 內的設定如下。
+接著來挑選自己喜歡的主題，例如 [repo][1] 提供的，如果找到的主題並未在 repo 內，只需要將想要的主題下載到 `~/.oh-my-zsh/themes` 內，並且編輯 `~/.zshrc` 內的設定如下。
 
 ```ini
 ZSH_THEME="ys"
@@ -89,6 +89,4 @@ source ~/.zshrc
   
 
 
-[1]:	https://raw.githubusercontent.com/zsh-users/antigen/develop/antigen.png
-[2]:	https://raw.githubusercontent.com/zsh-users/antigen/develop/antigen.png
-[3]:	https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes
+[1]:	https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes
