@@ -4,6 +4,7 @@ tags: ["文章"]
 date: 2019-12-31T16:52:00+08:00
 draft: false
 author: "tdc"
+aliases: [ "/551"]
 featuredImagePreview: "https://p176.p0.n0.cdn.getcloudapp.com/items/eDu9yQkN/collage.png"
 featuredImage: "https://p176.p0.n0.cdn.getcloudapp.com/items/eDu9yQkN/collage.png"
 
@@ -13,7 +14,7 @@ featuredImage: "https://p176.p0.n0.cdn.getcloudapp.com/items/eDu9yQkN/collage.pn
 
 # 序
 
-最近幾個月身邊不少朋友突然開始聽 Podcast，~~以前偶爾聽，現在我天天聽~~（偷梗）。  
+最近幾個月身邊不少朋友突然開始聽 Podcast，\~\~以前偶爾聽，現在我天天聽\~\~（偷梗）。  
 
 其實這似乎不用太意外，Podcast 戰爭其實更早之前就開始準備了，只是今年才開始有一點煙硝味。
 
@@ -29,11 +30,11 @@ Spotify 以相當於台幣 3.37億美金收購了 Gimlet Media 以及 Anchor ，
 
 ### Apple
 
-傳言 Apple 投資數家製作 Podcast 原創節目，提供獨家內容給 Apple，導致 Spotify 股價下跌？！接著 2018 年的 WWDC 開始介紹 Podcast 節目[後台分析](https://developer.apple.com/videos/play/wwdc2018/501/)。
+傳言 Apple 投資數家製作 Podcast 原創節目，提供獨家內容給 Apple，導致 Spotify 股價下跌？！接著 2018 年的 WWDC 開始介紹 Podcast 節目[後台分析][1]。
 
 ---
 
-看得出來兩間公司在 Podcast 上都花了一些時間才準備好劍與盾 ~~（沒錢買 QQ）~~ 準備好這場戰爭，所以在今年 2019 這場角力戰才悄悄浮出檯面
+看得出來兩間公司在 Podcast 上都花了一些時間才準備好劍與盾 \~\~（沒錢買 QQ）\~\~ 準備好這場戰爭，所以在今年 2019 這場角力戰才悄悄浮出檯面
 
 # Money Maker
 
@@ -43,11 +44,11 @@ Spotify 以相當於台幣 3.37億美金收購了 Gimlet Media 以及 Anchor ，
 
 ---
 
-題外話一下，網頁廣告有 Adblock, AdGuard 而 Podcast 也有對策，使用機器學習將廣告的部分直接靜音或跳過，星星數也有 1.3k 的 [adblockradio](https://github.com/adblockradio/adblockradio)。
+題外話一下，網頁廣告有 Adblock, AdGuard 而 Podcast 也有對策，使用機器學習將廣告的部分直接靜音或跳過，星星數也有 1.3k 的 [adblockradio][2]。
 
 ---
 
-但是有多少人願意為了聽 Podcast 節目？「[科技島讀](https://daodu.tech/)」就是一個例子，原先的第一季節目是付費的節目，需要使用者付費才能收聽，聽起來很合理。而第二季則改為免費，但願意的支持者依舊可以付費支持，也許是為了 ~~養套殺~~ 帶動台灣的 Podcast 產業起飛也說不定。他們在節目中也常感謝那些願意付費支持的使用者，讓更多人可以聽到有知識的節目。
+但是有多少人願意為了聽 Podcast 節目？「[科技島讀][3]」就是一個例子，原先的第一季節目是付費的節目，需要使用者付費才能收聽，聽起來很合理。而第二季則改為免費，但願意的支持者依舊可以付費支持，也許是為了 \~\~養套殺\~\~ 帶動台灣的 Podcast 產業起飛也說不定。他們在節目中也常感謝那些願意付費支持的使用者，讓更多人可以聽到有知識的節目。
 
 而 Spotify 收購的 Anchor 用意應該是降低 Podcast 錄製門檻，並且同時提高用戶的黏著度，Anchor 內有強大的互動系統，老實說初次看到我以為是 Instagram，按著教學指出粉絲可以用錄音回覆，並寫「播主」可以利用回覆的內容直接添加到節目內進行互動。以往 Podcast 要與人互動往往都是透過留言或是 call-in 的方式，留言僅僅透過文字轉述很難表達更深層的情緒，而 call-in 需要額外的設備、成本。
 
@@ -65,7 +66,7 @@ Apple 那邊大概是想要走現在的 Apple TV 的路線，提供獨佔內容�
 
 這邊順道推薦幾個個人常聽的 Podcast 節目，同時有興趣的也可以蕉流蕉流。  
 
-[Notion 清單](https://www.notion.so/Podcast-de6db32e5696497fb2f4d6201de56c64)
+[Notion 清單][4]
 
 # Ref
 
@@ -79,3 +80,8 @@ Apple 那邊大概是想要走現在的 Apple TV 的路線，提供獨佔內容�
 
 
 
+
+[1]:	https://developer.apple.com/videos/play/wwdc2018/501/
+[2]:	https://github.com/adblockradio/adblockradio
+[3]:	https://daodu.tech/
+[4]:	https://www.notion.so/Podcast-de6db32e5696497fb2f4d6201de56c64
