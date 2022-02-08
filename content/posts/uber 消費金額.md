@@ -3,7 +3,7 @@ title: "Uber 消費金額"
 tags: ["uber", "ubereats"]
 date: 2022-02-08T07:34:30Z
 draft: false
-aurhtor: tdc
+author: "tdc"
 featuredImagePreview: https://dr.sudo.host/3vuNdx+
 featuredImage: https://dr.sudo.host/3vuNdx+
 
