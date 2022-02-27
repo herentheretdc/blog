@@ -17,7 +17,7 @@ featuredImage: https://blog.cloudflare.com/content/images/2019/04/warp-illustrat
 
 # 搞事
 搞事之前先解釋一下整個架構  
-![cf](https://www.cloudflare.com/static/1a1b6050c964dab0a1e764893d3f8a35/CF_SWG_Illustration_2022_Q1.png)
+![cf](https://www.cloudflare.com/static/1a1b6050c964dab0a1e764893d3f8a35/CF_SWG_Illustration_2022_Q1.png)  
 簡單說其實就是使用者的裝置連上 Cloudflare 的網路後，可以存取公司內部的資源，其實就很像傳統 VPN，但他對 IT 來說可以做到更多厲害方便的功能。
 
 需要事前準備以下東西
