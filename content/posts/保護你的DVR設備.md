@@ -2,7 +2,7 @@
 title: "保護你的DVR設備"
 tags: ["cloudfalre", "security", "資安", "網路安全", "DVR", "監視器", "warp"]
 date: 2022-02-27T03:44:24Z
-draft: true
+draft: false
 author: "tdc"
 featuredImagePreview: https://blog.cloudflare.com/content/images/2019/04/warp-illustration-update@2x.png
 
