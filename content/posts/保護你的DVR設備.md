@@ -60,8 +60,7 @@ Created tunnel tochu
 打開剛剛建立的檔案將以下的東西複製貼上
 ```yaml
 tunnel: xxxxxxx-eec0-481f-xxxxxx
-credentials-file: ~/.cloudflared/xxxxxxx-eec0-481f-xxxxxx
-.json
+credentials-file: ~/.cloudflared/xxxxxxx-eec0-481f-xxxxxx.json
 warp-routing:
   enabled: true
 ```
